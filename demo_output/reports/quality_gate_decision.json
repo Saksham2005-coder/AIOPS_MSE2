@@ -1,0 +1,22 @@
+{
+  "candidate_metrics": {
+    "accuracy": 0.872,
+    "f1": 0.8391959798994975,
+    "precision": 0.8697916666666666,
+    "recall": 0.8106796116504854
+  },
+  "candidate_model": "demo_output/artifacts/candidate_model.joblib",
+  "champion_metrics": {
+    "accuracy": 0.872,
+    "f1": 0.8391959798994975,
+    "precision": 0.8697916666666666,
+    "recall": 0.8106796116504854
+  },
+  "champion_model": "demo_output/artifacts/champion_model.joblib",
+  "criterion": "candidate holdout F1 >= 0.80 and no more than 0.01 below champion holdout F1",
+  "decision": "eligible_for_promotion",
+  "holdout_rows": 500,
+  "mlflow_status": "not_installed",
+  "promotion_automatic": false,
+  "reason": "Candidate meets the F1 quality gate; explicit human promotion is required."
+}
